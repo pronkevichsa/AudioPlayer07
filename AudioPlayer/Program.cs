@@ -13,7 +13,7 @@ namespace AudioPlayer
             var player = new AudioPlayer();
 
             Song[] song = CreateSongs();
-
+ 
             player.songs = song.ToList<Song>();
               
             player.SortByTitle();
